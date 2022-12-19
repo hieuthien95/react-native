@@ -21,6 +21,8 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 
 > rbenv global 2.7.5
 
+> ruby -v
+
 // check install bundle
 
 // install Xcode
