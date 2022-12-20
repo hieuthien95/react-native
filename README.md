@@ -27,6 +27,8 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 
 // install Xcode
 
+// npm install -g react-devtools
+
 ========================================================
 
 > npx react-native init RNDemo
