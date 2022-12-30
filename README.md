@@ -46,3 +46,31 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 > yarn ios
 
 ```
+
+# react navigation
+## Getting started
+
+```
+> yarn add @react-navigation/native
+
+> yarn add react-native-screens react-native-safe-area-context
+
+> npx pod-install ios
+```
+
+## Hello React Navigation
+```
+> yarn add @react-navigation/native-stack
+
+> npx pod-install ios
+```
+
+<!-- 
+ISSUE: Invariant Violation: Tried to register two views with the same name RNCSafeAreaProvider error with @react-navigation/stack
+    run: npm dedupe or yarn install
+
+ISSUE: requireNativeComponent: "RNSScreenStackHeaderConfig" was not found in the UIManager
+    Remove the app from the simulator.
+    run npx react-native run-ios
+    And enjoy life)
+-->
