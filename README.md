@@ -1,3 +1,7 @@
+<!-- ================================================================================ -->
+
+# install react-native
+
 [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
 
 ```
@@ -22,12 +26,11 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 > ruby -v
 
 // check install bundle
-
 // install Xcode
-
 // npm install -g react-devtools
-
 ```
+
+<!-- -------------------------------------------------------------------------------- -->
 
 # react-native init project
 ```
@@ -45,7 +48,12 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 
 ```
 
+<!-- ================================================================================ -->
+
 # react navigation
+
+[https://reactnavigation.org/docs/getting-started](https://reactnavigation.org/docs/getting-started)
+
 ## Getting started
 
 ```
@@ -56,7 +64,12 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 > npx pod-install ios
 ```
 
+<!-- -------------------------------------------------------------------------------- -->
+
 ## Hello React Navigation
+
+[https://reactnavigation.org/docs/hello-react-navigation#summary](https://reactnavigation.org/docs/hello-react-navigation#summary)
+
 ```
 > yarn add @react-navigation/native-stack
 
@@ -64,7 +77,9 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 ```
 
 * ISSUE: Invariant Violation: Tried to register two views with the same name RNCSafeAreaProvider error with @react-navigation/stack
-```run: npm dedupe or yarn install```
+```
+    run: npm dedupe or yarn install
+```
 
 * ISSUE: requireNativeComponent: "RNSScreenStackHeaderConfig" was not found in the UIManager
 ```
@@ -72,3 +87,5 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
     run npx react-native run-ios
     And enjoy life
 ```
+
+<!-- -------------------------------------------------------------------------------- -->
