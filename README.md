@@ -29,19 +29,17 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 
 // npm install -g react-devtools
 
-========================================================
+```
 
-> npx react-native init RNDemo
+# react-native init project
+```
+> npx react-native init ThienLearning
 
-> cd RNDemo
+> cd ThienLearning
 
 > yarn install // clone dependency
 
-> cd ios
-
-> pod install
-
-> cd ..
+> npx pod-install ios
 
 > yarn start // metro
 
