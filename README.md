@@ -92,6 +92,6 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 
 ## Routing
 
-[https://reactnavigation.org/docs/navigating](https://reactnavigation.org/docs/navigating)
+[https://reactnavigation.org/docs/navigating](https://reactnavigation.org/docs/navigating#summary)
 
 <!-- -------------------------------------------------------------------------------- -->
