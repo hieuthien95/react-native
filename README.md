@@ -95,3 +95,18 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 [https://reactnavigation.org/docs/navigating](https://reactnavigation.org/docs/navigating#summary)
 
 <!-- -------------------------------------------------------------------------------- -->
+
+## Routing with param
+
+[https://reactnavigation.org/docs/params](https://reactnavigation.org/docs/params#summary)
+
+```
+/* 1. Navigate to the Details route with params */
+/* 2. Get the param */
+/* 3. Set random param */
+/* 4. initialParams */
+/* 5. Passing params to a previous screen */
+/* 6. Passing params to nested navigators: TODO https://reactnavigation.org/docs/params#passing-params-to-nested-navigators */
+```
+
+<!-- -------------------------------------------------------------------------------- -->
