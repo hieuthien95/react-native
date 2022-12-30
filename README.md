@@ -1,7 +1,5 @@
 ```
-https://reactnative.dev/docs/environment-setup
-
-========================================================
+[https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
 
 > brew install node
 
