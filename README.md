@@ -48,3 +48,20 @@ eval "$(/usr/local/bin/rbenv init - zsh)"
 > yarn ios
 
 ```
+
+```
+> brew tap homebrew/cask-versions
+
+> brew install --cask zulu11
+
+> open ~/.zshrc
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+> source ~/.zshrc
+
+========================================================
+
+> npx react-native run-android
+```
