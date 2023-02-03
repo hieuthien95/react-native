@@ -61,6 +61,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 > source ~/.zshrc
 
+// install android studio
+// create new device
+
 ========================================================
 
 > npx react-native run-android
